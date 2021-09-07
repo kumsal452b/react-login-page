@@ -2,22 +2,23 @@ import React from "react";
 import logo from "./logo.svg";
 import "./App.scss";
 import "./css/style.css";
-
+import "./css/css/hover.css";
 function App() {
   return (
     <div>
       <div
         className="customHeader"
         style={{
-          backgroundColor: "black",
+          backgroundColor: "hsl(234, 41%, 23%)",
           height: 40,
           alignItems: "center",
           justifyContent: "end",
           display: "flex",
+          padding: 10,
         }}
       >
         <button
-          className="customButton"
+          className="customButton hvr-sweep-to-right"
           style={{
             backgroundColor: "transparent",
             borderColor: "cyan",
@@ -26,14 +27,35 @@ function App() {
             display: "flex",
             justifyContent: "center",
             alignItems: "center",
+            marginRight: 10,
+            outline: "none",
           }}
         >
-          <p style={{ color: "cyan", fontSize: 16 }}>Contact us</p>
+          <FontAw
+          <h6 style={{ color: "cyan", fontSize: 14, marginTop: 5 }}>Join us</h6>
+        </button>
+        <button
+          className="hvr-sweep-to-right"
+          style={{
+            backgroundColor: "transparent",
+            borderColor: "cyan",
+            borderRadius: 30,
+            color: "ehite",
+            display: "flex",
+            justifyContent: "center",
+            alignItems: "center",
+            marginRight: 10,
+            outline: "none",
+          }}
+        >
+          <h6 style={{ color: "cyan", fontSize: 14, marginTop: 5 }}>
+            Contact us
+          </h6>
         </button>
       </div>
-      <div className="doga1"></div>
-      <div className="doga2"></div>
-      <div className="doga3"></div>
+      <div className="mac1"></div>
+      <div className="mac2"></div>
+      <div className="mac3"></div>
       <section className="ftco-section">
         <div className="container">
           <div className="row justify-content-center">
