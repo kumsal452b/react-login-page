@@ -3,6 +3,7 @@ import logo from "./logo.svg";
 import "./App.scss";
 import "./css/style.css";
 import "./css/css/hover.css";
+import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
 function App() {
   return (
     <div>
@@ -31,7 +32,10 @@ function App() {
             outline: "none",
           }}
         >
-          <FontAw
+          <FontAwesomeIcon icon={["fab", "apple"]} />
+          <FontAwesomeIcon icon={["fab", "microsoft"]} />
+          <FontAwesomeIcon icon={["fab", "google"]} />
+
           <h6 style={{ color: "cyan", fontSize: 14, marginTop: 5 }}>Join us</h6>
         </button>
         <button
