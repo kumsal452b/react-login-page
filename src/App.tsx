@@ -1,6 +1,4 @@
 import React from "react";
-import logo from "./logo.svg";
-import "./App.scss";
 import "./css/style.css";
 import "./css/css/hover.css";
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
@@ -57,14 +55,14 @@ function App() {
           </h6>
         </button>
       </div>
-      <div className="mac1"></div>
-      <div className="mac2"></div>
-      <div className="mac3"></div>
+      <div className="cat1"></div>
+      <div className="cat2"></div>
+      <div className="cat3"></div>
       <section className="ftco-section">
         <div className="container">
           <div className="row justify-content-center">
             <div className="col-md-6 text-center mb-5">
-              <h2 className="heading-section">Welcome to Login Page</h2>
+              <h2 className="heading-section">CBP</h2>
             </div>
           </div>
           <div className="row justify-content-center">
